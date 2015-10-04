@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00591B71BC0B96200D6CA9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00591B61BC0B96200D6CA9B /* AppDelegate.swift */; };
+		C00591B91BC0B96200D6CA9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00591B81BC0B96200D6CA9B /* ViewController.swift */; };
+		C00591BC1BC0B96200D6CA9B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00591BA1BC0B96200D6CA9B /* Main.storyboard */; };
+		C00591BE1BC0B96200D6CA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C00591BD1BC0B96200D6CA9B /* Assets.xcassets */; };
+		C00591C11BC0B96200D6CA9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C00591BF1BC0B96200D6CA9B /* LaunchScreen.storyboard */; };
+		C00591C91BC0B97700D6CA9B /* BlueNinjaSensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00591C81BC0B97700D6CA9B /* BlueNinjaSensor.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C00591B31BC0B96200D6CA9B /* BlueNinjaSensorTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueNinjaSensorTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C00591B61BC0B96200D6CA9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C00591B81BC0B96200D6CA9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C00591BB1BC0B96200D6CA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C00591BD1BC0B96200D6CA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C00591C01BC0B96200D6CA9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C00591C21BC0B96200D6CA9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C00591C81BC0B97700D6CA9B /* BlueNinjaSensor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueNinjaSensor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00591B01BC0B96200D6CA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C00591AA1BC0B96200D6CA9B = {
+			isa = PBXGroup;
+			children = (
+				C00591B51BC0B96200D6CA9B /* BlueNinjaSensorTest */,
+				C00591B41BC0B96200D6CA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C00591B41BC0B96200D6CA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C00591B31BC0B96200D6CA9B /* BlueNinjaSensorTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C00591B51BC0B96200D6CA9B /* BlueNinjaSensorTest */ = {
+			isa = PBXGroup;
+			children = (
+				C00591B61BC0B96200D6CA9B /* AppDelegate.swift */,
+				C00591B81BC0B96200D6CA9B /* ViewController.swift */,
+				C00591C81BC0B97700D6CA9B /* BlueNinjaSensor.swift */,
+				C00591BA1BC0B96200D6CA9B /* Main.storyboard */,
+				C00591BD1BC0B96200D6CA9B /* Assets.xcassets */,
+				C00591BF1BC0B96200D6CA9B /* LaunchScreen.storyboard */,
+				C00591C21BC0B96200D6CA9B /* Info.plist */,
+			);
+			path = BlueNinjaSensorTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C00591B21BC0B96200D6CA9B /* BlueNinjaSensorTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00591C51BC0B96200D6CA9B /* Build configuration list for PBXNativeTarget "BlueNinjaSensorTest" */;
+			buildPhases = (
+				C00591AF1BC0B96200D6CA9B /* Sources */,
+				C00591B01BC0B96200D6CA9B /* Frameworks */,
+				C00591B11BC0B96200D6CA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueNinjaSensorTest;
+			productName = BlueNinjaSensorTest;
+			productReference = C00591B31BC0B96200D6CA9B /* BlueNinjaSensorTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C00591AB1BC0B96200D6CA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = goodmix;
+				TargetAttributes = {
+					C00591B21BC0B96200D6CA9B = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = C00591AE1BC0B96200D6CA9B /* Build configuration list for PBXProject "BlueNinjaSensorTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C00591AA1BC0B96200D6CA9B;
+			productRefGroup = C00591B41BC0B96200D6CA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C00591B21BC0B96200D6CA9B /* BlueNinjaSensorTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00591B11BC0B96200D6CA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00591C11BC0B96200D6CA9B /* LaunchScreen.storyboard in Resources */,
+				C00591BE1BC0B96200D6CA9B /* Assets.xcassets in Resources */,
+				C00591BC1BC0B96200D6CA9B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00591AF1BC0B96200D6CA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C00591B91BC0B96200D6CA9B /* ViewController.swift in Sources */,
+				C00591C91BC0B97700D6CA9B /* BlueNinjaSensor.swift in Sources */,
+				C00591B71BC0B96200D6CA9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C00591BA1BC0B96200D6CA9B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00591BB1BC0B96200D6CA9B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C00591BF1BC0B96200D6CA9B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C00591C01BC0B96200D6CA9B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C00591C31BC0B96200D6CA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C00591C41BC0B96200D6CA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C00591C61BC0B96200D6CA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueNinjaSensorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.goodmix.BlueNinjaSensorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C00591C71BC0B96200D6CA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BlueNinjaSensorTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.goodmix.BlueNinjaSensorTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C00591AE1BC0B96200D6CA9B /* Build configuration list for PBXProject "BlueNinjaSensorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00591C31BC0B96200D6CA9B /* Debug */,
+				C00591C41BC0B96200D6CA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00591C51BC0B96200D6CA9B /* Build configuration list for PBXNativeTarget "BlueNinjaSensorTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C00591C61BC0B96200D6CA9B /* Debug */,
+				C00591C71BC0B96200D6CA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C00591AB1BC0B96200D6CA9B /* Project object */;
+}
