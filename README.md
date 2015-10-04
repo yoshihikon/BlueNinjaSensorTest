@@ -5,7 +5,8 @@ BlueNinja
 http://blueninja.cerevo.com/ja/
 
 実例紹介にある、[BlueNinjaを使って「ミニ四駆テレメトリーシステム（ロガー）」をつくる]を使用し、
-iOSのSwift2で取得するサンプルです。
+iOSでデータを取得するサンプルです。
+Swift2で記述しています。
 
 #準備
 ####BlueNinjaの準備
