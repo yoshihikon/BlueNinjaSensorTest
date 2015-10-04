@@ -4,8 +4,8 @@ CerevoのBlueNinjaのセンサー値を取得するiPhone用サンプルアプ�
 BlueNinja
 http://blueninja.cerevo.com/ja/
 
-実例紹介にある、[BlueNinjaを使って「ミニ四駆テレメトリーシステム（ロガー）」をつくる]を使用し、
-iOSでデータを取得するサンプルです。
+実例紹介にある、[BlueNinjaを使って「ミニ四駆テレメトリーシステム（ロガー）」をつくる]のbinを使用し、
+iOSでデータを取得するサンプルアプリです。
 Swift2で記述しています。
 
 #準備
